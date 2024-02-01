@@ -1,0 +1,100 @@
+#logo {
+    width: 50px;
+    height:50px;
+    border-radius: 10px;
+}
+#logodiv {
+    padding-right: 25%;
+}
+#qotd {
+    position: relative;
+    text-align: center;
+    left: 33%;
+    width: 400px;
+    resize:horizontal;
+}
+#slideshow {
+    width: 75%;
+    height: 50%;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 12%;
+    animation: fade-out 4s ease-in-out infinite;
+}
+#computerskills {
+    background-color: #EDF4F5;
+    width:fit-content;
+    border: dashed 3px #FE98A5;
+    padding: 3%;
+    margin-top: 5%;
+}
+#myskillsimg {
+    position: relative;
+    border: double 10px #FFA52B;
+    width: 225px;
+    height: 300px;
+    left: 260px;
+    bottom: 55px;
+}
+#warimg {
+    width: 75%;
+    height: 50%;
+}
+#aboutme{
+    width: 300px;
+}
+#aboutmeimg {
+    position:relative;
+    left: 400px;
+    bottom: 370px;
+    width: 275px;
+    height: 400px;
+}
+
+header {
+    background-color: #FE98A5;
+    border-radius: 10px;
+}
+
+div {
+    display: inline-block;
+    padding-right: 8%;
+}
+
+a {
+    color:black;
+}
+a:visited {
+    color: #04F900;
+}
+a:hover {
+    color: #FFEE02;
+}
+
+section {
+    margin-left: 5%;
+}
+
+h1 {
+    margin-left: 3%;
+}
+
+h2 {
+    color: #4D230A;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #965E43;
+    margin-top: 0px;
+}
+
+body {
+    background-color: #C5C6DC;
+    margin: 0px;
+}
+
+@keyframes fade-out{
+    from { opacity: 1; }
+    to { opacity: .4; }
+}
